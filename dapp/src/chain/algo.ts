@@ -13,7 +13,7 @@ class Algo {
     algodPort = 4001;
 
 
-    createAccount() : IAccount {
+    async createAccount() : IAccount {
         let account: IAccount = {address: "", mnemonic: Uint8Array.of(0), amount: 0}
         try {  
             const myaccount = algosdk.generateAccount();
