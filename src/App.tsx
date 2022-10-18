@@ -15,6 +15,12 @@ const App: Component = () => {
     });
   };
 
+  const transact = () => {
+    algo.transactions().then(txs => {
+      console.log(txs)
+    })
+  }
+
   createEffect(() => {
     console.log("The count is now", account());
   });
@@ -44,6 +50,13 @@ const App: Component = () => {
           onclick={handleClick}
         >
           Create Account
+        </button>
+
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          onclick={transact}
+        >
+          Send Transaction
         </button>
       </div>
     </div>
