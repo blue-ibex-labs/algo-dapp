@@ -44,3 +44,6 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 ### checking local accounts 
 `./sandbox goal account partkeyinfo`
+
+## How to run on different network?
+- see src/chain/utils.ts
