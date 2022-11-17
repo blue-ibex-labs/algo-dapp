@@ -66,13 +66,13 @@ function printError(error) {
 }
 
 const algod = {
-  token: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
-  server: 'http://localhost',
-  port:  4001
+  // token: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+  // server: 'http://localhost',
+  // port:  4001
 
-  // token: "",
-  // server: "https://testnet-api.algonode.cloud/",
-  // port: 0,
+  token: "",
+  server: "https://testnet-api.algonode.cloud/",
+  port: 0,
 };
 
 export { validate, printError, algod };
