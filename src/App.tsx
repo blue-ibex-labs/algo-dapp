@@ -89,7 +89,7 @@ createEffect(async() => {
       <div class="pb-10 ">
 
         <div class="container text-center py-10 bg-gradient-to-l from-green-400 to-blue-400">
-          <h1 class="text-black text-5xl font-thin">ALGORAND DAPP 1.0</h1>
+          <h1 class=" text-5xl font-thin mars">ALGORAND DAPP 1.0</h1>
         </div><hr />
         <div class="flex">
           <div class=" w-3/6 px-4 py-12">
